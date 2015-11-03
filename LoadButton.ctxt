@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=LoadButton()
+comment0.text=\r\n\ labels\ the\ button\ "Load"\r\n
+comment1.params=
+comment1.target=void\ doButtonWork()
+comment2.params=
+comment2.target=void\ loadFile()
+comment2.text=\r\n\ Loads\ selected\ file\ into\ world.\ \r\n
+numComments=3

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=text
+comment0.target=GenericButton(java.lang.String)
+comment0.text=\r\n\ GenericButton\ -\ builds\ a\ button\ with\ a\ label\ of\ the\ given\ text.\ Note\ that\r\n\ \ \ \ you\ can\ NOT\ construct\ a\ Generci\ button\ because\ the\ class\ is\ abstract;\r\n\ \ \ \ classes\ that\ inherit\ this\ one\ can\ call\ this\ constructor\ using\ super()\r\n\ \ \ \ from\ their\ own\ constructor(s)\r\n\ \ \ \ \r\n\ \ \ \ @param\ text\ the\ label\ to\ utilize\ in\ the\ resulting\ button.\r\n
+comment1.params=
+comment1.target=void\ buildImages()
+comment1.text=\r\n\ buildImages\ -\ (private)\ builds\ the\ two\ images\ needed\ while\ the\ button\ is\ act-ing.\ \r\n\ \ \ one\ for\ an\ unclicked\ button,\ the\ other\ for\ when\ the\ button\ has\ been\ clicked.\r\n
+comment2.params=bg\ fg
+comment2.target=greenfoot.GreenfootImage\ buildImage(java.awt.Color,\ java.awt.Color)
+comment2.text=\r\n\ buldImage\ -\ (private)\ builds\ a\ single\ image\ with\ specified\ colors\:\r\n\ \ \ \ bg\ -\ the\ button\ background\ color\r\n\ \ \ \ fg\ -\ the\ button\ foreground\ color\r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ when\ the\ mouse\ is\ clicked\ on\ this\ button,\ makes\ the\ button\ image\ change\ and\r\n\ \ \ \ calls\ doButtonWork(),\ which\ is\ where\ the\ "action"\ for\ the\ button\ should\ be\r\n
+comment4.params=newText
+comment4.target=void\ setLabel(java.lang.String)
+comment4.text=\r\n\ setLabel\ -\ changes\ the\ label\ text.\ Also\ redraws\ button\ and\ moves\ it\ to\ keep\ it\ left\ aligned.\r\n\ \r\n\ @param\ newText\ -\ the\ new\ text\ to\ be\ plaed\ in\ the\ button.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getLabel()
+comment5.text=\r\n\ getLabel\ -\ returns\ what\ text\ is\ currently\ in\ the\ button\r\n\ \ \ @return\ a\ String\ containing\ the\ button's\ text.\r\n
+comment6.params=
+comment6.target=void\ doButtonWork()
+comment6.text=\r\n\ doButtonWork\ -\ code\ to\ do\ when\ this\ button\ is\ pressed.\ YOU\ MUST\ OVERRIDE\ THIS\ METHOD\ IN\r\n\ \ \ YOUR\ SUBCLASS\!\r\n
+numComments=7

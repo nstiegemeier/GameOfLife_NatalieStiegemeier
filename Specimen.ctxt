@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=width\ height
+comment0.target=Specimen(int,\ int)
+comment0.text=\r\n\ Constructor\ for\ a\ specimen\ to\ add\ into\ the\ grid\ (world)\r\n\ \r\n\ \ \ @param\ width\ -\ the\ width\ of\ the\ new\ specimen's\ image\r\n\ \ \ @param\ height\ -\ the\ height\ of\ the\ new\ specimen's\ image\r\n
+numComments=1
